@@ -1,0 +1,60 @@
+:root {
+    --color1: #D0EDF5;
+    --color2: #E4F1D9;
+    --color3: #FCF8B9;
+    --color4: #EBEBEB;
+    --color5: #DEDEDE;
+    --color6: #FDC3C2;
+    --color7: #E2F0D6;
+    --color8: #FCF8BB;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.threeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header {
+    margin: 50px 0;
+}
+
+.header h1 {
+    margin-top: 0;
+    font-size: 60px;
+}
+
+.header .header__column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav span {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    display: block;
+    color: rgb(0, 0, 0, 0.4);
+}
+
+.header__nav li {
+    margin-bottom: 5px;
+}
+
+.header__nav li:last-child {
+    margin-bottom: 0;
+}
